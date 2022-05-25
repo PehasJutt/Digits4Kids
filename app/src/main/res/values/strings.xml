@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Maths4Kids</string>
+    <string name="Welcome">Welcome To Maths App</string>
+    <string name="LearnBtn">Start Learning</string>
+    <string name="QuizBtn">Take Quiz</string>
+    <string name="Ftr_Intro">This App is developed by Hassan Ahmad Sarfraz</string>
+    <string name="Ftr_Req">Check out my GitHub repository</string>
+    <string name="GitBtn">GitHub</string>
+    <string name="Digit1">1</string>
+    <string name="Digit2">2</string>
+    <string name="Digit3">3</string>
+    <string name="Digit4">4</string>
+    <string name="Digit5">5</string>
+    <string name="Digit6">6</string>
+    <string name="Digit7">7</string>
+    <string name="Digit8">8</string>
+    <string name="Digit9">9</string>
+    <string name="Num1">One</string>
+    <string name="Num2">Two</string>
+    <string name="Num3">Three</string>
+    <string name="Num4">Four</string>
+    <string name="Num5">Five</string>
+    <string name="Num6">Six</string>
+    <string name="Num7">Seven</string>
+    <string name="Num8">Eight</string>
+    <string name="Num9">Nine</string>
+    <string name="Prev">Previous Button</string>
+    <string name="Next">Next Button</string>
+    <string name="Back">Back Button</string>
+    <string name="Q1">Q 1</string>
+    <string name="Q2">Q 2</string>
+    <string name="Q3">Q 3</string>
+    <string name="Q4">Q 4</string>
+    <string name="Q5">Q 5</string>
+    <string name="QuestStmnt">How Many Apples Are There ?</string>
+    <string name="Opt7">7</string>
+    <string name="Opt8">8</string>
+    <string name="Opt6">6</string>
+    <string name="Opt1">1</string>
+    <string name="Opt5">5</string>
+    <string name="Score">Your Score:</string>
+    <string name="UrScore">0 / 5</string>
+    <string name="Skip">Skip To Next Question</string>
+    <string name="Tscr">Out of 5</string>
+    <string name="HomeBtn">Back To Home</string>
+
+</resources>
