@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openGitHub(View view) {
-        String url = "https://github.com/PehasJutt/MovieCluster";
+        String url = "https://github.com/PehasJutt/Digits4Kids";
         Uri webpage = Uri.parse(url);
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         if (intent.resolveActivity(getPackageManager()) != null) {
