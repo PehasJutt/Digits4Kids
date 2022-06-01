@@ -20,7 +20,7 @@ public class LearnActivity extends AppCompatActivity {
         setContentView(R.layout.activity_learn);
         Prev= findViewById(R.id.prevBtn);
         Next = findViewById(R.id.nextBtn);
-        final int[] Count = {0};
+        final int[] Count = {1};
         Prev.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

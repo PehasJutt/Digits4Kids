@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LearnActivity">
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="141dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="179dp"
+        android:gravity="center"
+        android:text="@string/Num1"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/digit"
+        android:layout_width="107dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="165dp"
+        android:gravity="center"
+        android:text="@string/Digit1"
+        android:textSize="70sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/nextBtn"
+        android:layout_width="64sp"
+        android:layout_height="64sp"
+        android:layout_marginStart="334dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/arrow_down_float" />
+
+    <ImageButton
+        android:id="@+id/prevBtn"
+        android:layout_width="64sp"
+        android:layout_height="64sp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/Prev"
+        app:layout_constraintStart_toEndOf="@+id/back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/arrow_up_float" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="400dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/nextBtn"
+        app:layout_constraintEnd_toStartOf="@+id/num"
+        app:layout_constraintStart_toEndOf="@+id/digit"
+        app:layout_constraintTop_toBottomOf="@+id/prevBtn"
+        app:srcCompat="@drawable/one" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/Back"
+        android:onClick="back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudio/Alphabets4Kids/app/src/main/res/layout-land/activity_learn.xml" value="0.23544973544973544" />
+        <entry key="..\:/AndroidStudio/Alphabets4Kids/app/src/main/res/layout-land/activity_main.xml" value="0.23544973544973544" />
+        <entry key="..\:/AndroidStudio/Alphabets4Kids/app/src/main/res/layout-land/activity_quiz.xml" value="0.23544973544973544" />
+        <entry key="..\:/AndroidStudio/Alphabets4Kids/app/src/main/res/layout-land/activity_score_board.xml" value="0.23544973544973544" />
         <entry key="..\:/AndroidStudio/Alphabets4Kids/app/src/main/res/layout/activity_learn.xml" value="0.26811594202898553" />
         <entry key="..\:/AndroidStudio/Alphabets4Kids/app/src/main/res/layout/activity_main.xml" value="0.26811594202898553" />
         <entry key="..\:/AndroidStudio/Alphabets4Kids/app/src/main/res/layout/activity_quiz.xml" value="0.26811594202898553" />
